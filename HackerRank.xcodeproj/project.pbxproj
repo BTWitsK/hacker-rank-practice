@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ADDCC2A1F0381A0000F887F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC291F0381A0000F887F /* main.cpp */; };
+		0ADDCC321F0386D8000F887F /* Vector-Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		0ADDCC261F0381A0000F887F /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ADDCC291F0381A0000F887F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0ADDCC301F038691000F887F /* C++ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "C++"; path = "HackerRank/C++"; sourceTree = "<group>"; };
+		0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Vector-Sort.cpp"; path = "HackerRank/C++/STL/Vector-Sort.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,8 @@
 		0ADDCC1D1F0381A0000F887F = {
 			isa = PBXGroup;
 			children = (
+				0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */,
+				0ADDCC301F038691000F887F /* C++ */,
 				0ADDCC281F0381A0000F887F /* HackerRank */,
 				0ADDCC271F0381A0000F887F /* Products */,
 			);
@@ -57,7 +60,6 @@
 		0ADDCC281F0381A0000F887F /* HackerRank */ = {
 			isa = PBXGroup;
 			children = (
-				0ADDCC291F0381A0000F887F /* main.cpp */,
 			);
 			path = HackerRank;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ADDCC2A1F0381A0000F887F /* main.cpp in Sources */,
+				0ADDCC321F0386D8000F887F /* Vector-Sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +249,7 @@
 				0ADDCC2F1F0381A0000F887F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
