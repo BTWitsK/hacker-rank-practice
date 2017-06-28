@@ -14,7 +14,24 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    vector <int> ints;
+    int digits{0}, loop{0};
+    
+    cin >> loop;
+    
+    for (int i = 0; i < loop; i++){
+        
+        cin >> digits;
+        ints.push_back(digits);
+    }
+    
+    sort(ints.begin(),ints.end());
+    
+    for (int i = 0; i < ints.size(); i ++){
+        
+        cout << ints[i] << " ";
+    }
+    
     return 0;
 }
 
