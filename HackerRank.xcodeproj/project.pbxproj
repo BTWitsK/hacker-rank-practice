@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0ADDCC321F0386D8000F887F /* Vector-Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */; };
+		0ADDCC341F047D1D000F887F /* Vector-Erase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC331F047D1D000F887F /* Vector-Erase.cpp */; };
+		0ADDCC361F04A723000F887F /* Lower Bound-STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC351F04A723000F887F /* Lower Bound-STL.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,8 @@
 		0ADDCC261F0381A0000F887F /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADDCC301F038691000F887F /* C++ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "C++"; path = "HackerRank/C++"; sourceTree = "<group>"; };
 		0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Vector-Sort.cpp"; path = "HackerRank/C++/STL/Vector-Sort.cpp"; sourceTree = "<group>"; };
+		0ADDCC331F047D1D000F887F /* Vector-Erase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Vector-Erase.cpp"; path = "HackerRank/C++/STL/Vector-Erase.cpp"; sourceTree = "<group>"; };
+		0ADDCC351F04A723000F887F /* Lower Bound-STL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Lower Bound-STL.cpp"; path = "HackerRank/C++/STL/Lower Bound-STL.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +46,9 @@
 		0ADDCC1D1F0381A0000F887F = {
 			isa = PBXGroup;
 			children = (
+				0ADDCC351F04A723000F887F /* Lower Bound-STL.cpp */,
 				0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */,
+				0ADDCC331F047D1D000F887F /* Vector-Erase.cpp */,
 				0ADDCC301F038691000F887F /* C++ */,
 				0ADDCC281F0381A0000F887F /* HackerRank */,
 				0ADDCC271F0381A0000F887F /* Products */,
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADDCC321F0386D8000F887F /* Vector-Sort.cpp in Sources */,
+				0ADDCC361F04A723000F887F /* Lower Bound-STL.cpp in Sources */,
+				0ADDCC341F047D1D000F887F /* Vector-Erase.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
