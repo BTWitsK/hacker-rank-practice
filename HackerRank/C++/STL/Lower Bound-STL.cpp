@@ -16,7 +16,7 @@ using namespace std;
 
 int main() {
     vector <int> N;
-    vector<int>::iterator low;
+    vector<int>::iterator low; //defines iterator low
     int n, loop, counter, q;
    
     
@@ -37,7 +37,8 @@ int main() {
         
         if (q == *low) {
             cout << "Yes " << (low - N.begin() + 1) << endl;
-        } else cout << "No " << (low - N.begin() + 1) << endl;
+        }
+        else cout << "No " << (low - N.begin() + 1) << endl;
         
         
     }
