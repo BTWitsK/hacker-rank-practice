@@ -16,8 +16,56 @@
 using namespace std;
 
 
+
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    map <string, int> myMap;
+    map <string, int>::iterator it;
+    int Q;
+    cin >> Q;
+    
+    for (int i = 0; i < Q; i++) {
+        int type{0}, marks{0};
+        string name;
+        
+        cin >> type;
+        if (type == 1){
+            cin >> name >> marks;
+            
+            // Add the marks Y(second int)
+            //to Student X(first string)
+            
+            it = myMap.find(name);
+            
+            if (it != myMap.end()){
+                myMap.insert(make_pair(name, marks));
+            }
+            else {
+                it->second = it->second + marks;
+                
+            }
+        }
+        if (type == 2){
+            cin >> name;
+            
+            myMap.erase(name);
+            
+            // Erase the marks Y (second int)
+            // from student (x) frist string)
+        }
+        if (type == 3){
+            cin >> name;
+            
+            it = myMap.find(name); //looks for name in
+                                   //myMap if found
+                                   //returns else
+                                   //returns .end()
+            
+            it!=myMap.end()? cout<< myMap[name] << endl:cout<< 0 << endl;
+            
+            // Print the marks from student X
+            // print 0 if no marks
+        }
+    }
     return 0;
 }
 
