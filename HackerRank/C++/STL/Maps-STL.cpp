@@ -20,13 +20,12 @@ using namespace std;
 int main() {
     map <string, int> myMap;
     map <string, int>::iterator it;
-    int Q;
+    int Q, type, marks;
+    string name;
+    
     cin >> Q;
     
     for (int i = 0; i < Q; i++) {
-        int type{0}, marks{0};
-        string name;
-        
         cin >> type;
         if (type == 1){
             cin >> name >> marks;
@@ -36,11 +35,15 @@ int main() {
             
             it = myMap.find(name);
             
-            if (it != myMap.end()){
+            if (it == myMap.end()){
                 myMap.insert(make_pair(name, marks));
             }
             else {
-                it->second = it->second + marks;
+                int add = myMap.find(name) -> second + marks;
+                
+                myMap.erase(name);
+                myMap.insert(make_pair(name, add));
+                
                 
             }
         }
