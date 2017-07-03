@@ -36,13 +36,13 @@ int main() {
             it = myMap.find(name);
             
             if (it == myMap.end()){
-                myMap.insert(make_pair(name, marks));
+                myMap.insert({name,marks});
             }
             else {
                 int add = myMap.find(name) -> second + marks;
                 
-                myMap.erase(name);
-                myMap.insert(make_pair(name, add));
+                  myMap.erase(name);
+                  myMap.insert(make_pair(name, add));
                 
                 
             }

@@ -12,6 +12,7 @@
 		0ADDCC361F04A723000F887F /* Lower Bound-STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC351F04A723000F887F /* Lower Bound-STL.cpp */; };
 		0ADDCC381F0722E6000F887F /* Sets-STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC371F0722E6000F887F /* Sets-STL.cpp */; };
 		0ADDCC3A1F073469000F887F /* Maps-STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC391F073469000F887F /* Maps-STL.cpp */; };
+		0ADDCC3C1F09C96D000F887F /* Inheritance Introduction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC3B1F09C96D000F887F /* Inheritance Introduction.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 		0ADDCC351F04A723000F887F /* Lower Bound-STL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Lower Bound-STL.cpp"; path = "HackerRank/C++/STL/Lower Bound-STL.cpp"; sourceTree = "<group>"; };
 		0ADDCC371F0722E6000F887F /* Sets-STL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Sets-STL.cpp"; path = "HackerRank/C++/STL/Sets-STL.cpp"; sourceTree = "<group>"; };
 		0ADDCC391F073469000F887F /* Maps-STL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Maps-STL.cpp"; path = "HackerRank/C++/STL/Maps-STL.cpp"; sourceTree = "<group>"; };
+		0ADDCC3B1F09C96D000F887F /* Inheritance Introduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Inheritance Introduction.cpp"; path = "HackerRank/C++/Inheritance/Inheritance Introduction.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 				0ADDCC351F04A723000F887F /* Lower Bound-STL.cpp */,
 				0ADDCC371F0722E6000F887F /* Sets-STL.cpp */,
 				0ADDCC391F073469000F887F /* Maps-STL.cpp */,
+				0ADDCC3B1F09C96D000F887F /* Inheritance Introduction.cpp */,
 				0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */,
 				0ADDCC331F047D1D000F887F /* Vector-Erase.cpp */,
 				0ADDCC301F038691000F887F /* C++ */,
@@ -135,6 +138,7 @@
 				0ADDCC381F0722E6000F887F /* Sets-STL.cpp in Sources */,
 				0ADDCC321F0386D8000F887F /* Vector-Sort.cpp in Sources */,
 				0ADDCC3A1F073469000F887F /* Maps-STL.cpp in Sources */,
+				0ADDCC3C1F09C96D000F887F /* Inheritance Introduction.cpp in Sources */,
 				0ADDCC361F04A723000F887F /* Lower Bound-STL.cpp in Sources */,
 				0ADDCC341F047D1D000F887F /* Vector-Erase.cpp in Sources */,
 			);
