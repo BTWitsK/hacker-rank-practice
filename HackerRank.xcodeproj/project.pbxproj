@@ -13,6 +13,8 @@
 		0ADDCC381F0722E6000F887F /* Sets-STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC371F0722E6000F887F /* Sets-STL.cpp */; };
 		0ADDCC3A1F073469000F887F /* Maps-STL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC391F073469000F887F /* Maps-STL.cpp */; };
 		0ADDCC3C1F09C96D000F887F /* Inheritance Introduction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC3B1F09C96D000F887F /* Inheritance Introduction.cpp */; };
+		0ADDCC3E1F09E367000F887F /* Multi Level Inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC3D1F09E367000F887F /* Multi Level Inheritance.cpp */; };
+		0ADDCC401F09EE92000F887F /* Class Templates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC3F1F09EE92000F887F /* Class Templates.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +38,8 @@
 		0ADDCC371F0722E6000F887F /* Sets-STL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Sets-STL.cpp"; path = "HackerRank/C++/STL/Sets-STL.cpp"; sourceTree = "<group>"; };
 		0ADDCC391F073469000F887F /* Maps-STL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Maps-STL.cpp"; path = "HackerRank/C++/STL/Maps-STL.cpp"; sourceTree = "<group>"; };
 		0ADDCC3B1F09C96D000F887F /* Inheritance Introduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Inheritance Introduction.cpp"; path = "HackerRank/C++/Inheritance/Inheritance Introduction.cpp"; sourceTree = "<group>"; };
+		0ADDCC3D1F09E367000F887F /* Multi Level Inheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Multi Level Inheritance.cpp"; path = "HackerRank/C++/Inheritance/Multi Level Inheritance.cpp"; sourceTree = "<group>"; };
+		0ADDCC3F1F09EE92000F887F /* Class Templates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Class Templates.cpp"; path = "HackerRank/C++/Other Concepts/Class Templates.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				0ADDCC371F0722E6000F887F /* Sets-STL.cpp */,
 				0ADDCC391F073469000F887F /* Maps-STL.cpp */,
 				0ADDCC3B1F09C96D000F887F /* Inheritance Introduction.cpp */,
+				0ADDCC3D1F09E367000F887F /* Multi Level Inheritance.cpp */,
+				0ADDCC3F1F09EE92000F887F /* Class Templates.cpp */,
 				0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */,
 				0ADDCC331F047D1D000F887F /* Vector-Erase.cpp */,
 				0ADDCC301F038691000F887F /* C++ */,
@@ -136,11 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADDCC381F0722E6000F887F /* Sets-STL.cpp in Sources */,
+				0ADDCC401F09EE92000F887F /* Class Templates.cpp in Sources */,
 				0ADDCC321F0386D8000F887F /* Vector-Sort.cpp in Sources */,
 				0ADDCC3A1F073469000F887F /* Maps-STL.cpp in Sources */,
 				0ADDCC3C1F09C96D000F887F /* Inheritance Introduction.cpp in Sources */,
 				0ADDCC361F04A723000F887F /* Lower Bound-STL.cpp in Sources */,
 				0ADDCC341F047D1D000F887F /* Vector-Erase.cpp in Sources */,
+				0ADDCC3E1F09E367000F887F /* Multi Level Inheritance.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
