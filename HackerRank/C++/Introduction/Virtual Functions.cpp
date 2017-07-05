@@ -24,7 +24,8 @@ public:
 };
 class Professor: public Person {
 public:
-    int publications, cur_id;
+    int publications, id;
+    static int cur_id;
 
         void getdata(){
         string get_name;
@@ -35,22 +36,26 @@ public:
         name = get_name;
         age = get_age;
         publications = get_publications;
+        cur_id ++;
+        id = cur_id;
     }
         void putdata(){
-        cout << name << " " << age << " " << publications << " "  << cur_id << endl;
+        cout << name << " " << age << " " << publications << " "  << id << endl;
     }
 
 
-};
+}; int Professor::cur_id = 0;
 class Student: public Person{
 public:
-    int marks[6], cur_id;
+    int marks[6], id;
+    static int cur_id;
     
     void getdata(){
         string get_name;
         int get_age, get_marks;
         
         cin >> get_name >> get_age;
+        cur_id ++;
         
         for(int i = 0; i < 6; i++){
             cin >> get_marks;
@@ -58,6 +63,7 @@ public:
         }
         name = get_name;
         age = get_age;
+        id = cur_id;
     }
     void putdata(){
         int sum{0};
@@ -66,10 +72,10 @@ public:
             sum += marks[i];
         }
         
-        cout << name << " " << age << " " << sum << " " << cur_id << endl;
+        cout << name << " " << age << " " << sum << " " << id << endl;
     }
     
-};
+}; int Student::cur_id = 0;
 
 int main(){
     
