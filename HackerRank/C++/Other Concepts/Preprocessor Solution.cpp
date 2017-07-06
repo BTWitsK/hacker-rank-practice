@@ -1,0 +1,46 @@
+//
+//  Preprocessor Solution.cpp
+//  HackerRank
+//
+//  Created by BTWitsK on 7/5/17.
+//
+//
+
+#include <stdio.h>
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+#if !defined toStr || !defined io || !defined FUNCTION || !defined INF
+#error Missing preprocessor definitions
+#endif
+
+
+#define toStr(a) " "
+#define foreach(a,b) for (auto b: a)
+#define io(a) v
+#define FUNCTION ()
+
+
+FUNCTION(minimum, <)
+FUNCTION(maximum, >)
+
+int main(){
+    int n; cin >> n;
+    vector<int> v(n);
+    foreach(v, i) {
+        io(v)[i];
+    }
+    int mn = INF;
+    int mx = -INF;
+    foreach(v, i) {
+        minimum(mn, v[i]);
+        maximum(mx, v[i]);
+    }
+    int ans = mx - mn;
+  
+    cout << toStr(Result =) <<' '<< ans;
+    return 0;
+    
+}

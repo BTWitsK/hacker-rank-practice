@@ -11,19 +11,20 @@ using namespace std;
 
 class Box{
 private:
-    int length, breadth, height;
+    int l, b, h;
     
 public:
-    Box(){ length = 0; breadth =0; height =0; }
+    Box(){ l = 0; b = 0; h = 0; }
     
-    Box(int l, int b, int h){
-        length = l, breadth = b, height = h;
+    Box(int length, int breadth, int height){
+        l = length; b = breadth; h = height;
     }
     Box(const Box& B){
         length = B.length;
         breadth = B.breadth;
         height = B.height;
     }
+    
     int getLength(){return length;}
     int getBreadth(){return breadth;}
     int getHeight(){return height;}
@@ -37,24 +38,16 @@ public:
     
     
     
-   bool operator<(Box& b);
+   
     
 };
 
-
-
+bool operator<(Box& b);
 
 ostream& operator<<(ostream& out, Box& B);
 
 
 // The class should have the following functions :
-
-// Constructors:
-
-
-
-
-
 
 //Overload operator < as specified
 //bool operator<(Box& b)
