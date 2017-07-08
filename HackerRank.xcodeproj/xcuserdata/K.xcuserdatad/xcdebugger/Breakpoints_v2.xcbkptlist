@@ -87,12 +87,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HackerRank/C++/Other Concepts/Preprocessor Solution.cpp"
-            timestampString = "521008609.380422"
+            filePath = "HackerRank/C++/Other Concepts/Overload Operators.cpp"
+            timestampString = "521009912.414847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27">
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "operator&lt;&lt; (ostream&amp; out, string z)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

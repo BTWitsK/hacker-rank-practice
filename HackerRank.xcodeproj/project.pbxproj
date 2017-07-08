@@ -19,6 +19,7 @@
 		0ADDCC441F0B79FE000F887F /* 2D Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC431F0B79FE000F887F /* 2D Array.cpp */; };
 		0ADDCC461F0B921D000F887F /* Virtual Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC451F0B921D000F887F /* Virtual Functions.cpp */; };
 		0ADDCC481F0DC8E4000F887F /* Preprocessor Solution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC471F0DC8E4000F887F /* Preprocessor Solution.cpp */; };
+		0ADDCC4A1F0DF88A000F887F /* Overload Operators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ADDCC491F0DF88A000F887F /* Overload Operators.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		0ADDCC431F0B79FE000F887F /* 2D Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "2D Array.cpp"; path = "HackerRank/Data Structures/2D Array.cpp"; sourceTree = "<group>"; };
 		0ADDCC451F0B921D000F887F /* Virtual Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Virtual Functions.cpp"; path = "HackerRank/C++/Introduction/Virtual Functions.cpp"; sourceTree = "<group>"; };
 		0ADDCC471F0DC8E4000F887F /* Preprocessor Solution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Preprocessor Solution.cpp"; path = "HackerRank/C++/Other Concepts/Preprocessor Solution.cpp"; sourceTree = "<group>"; };
+		0ADDCC491F0DF88A000F887F /* Overload Operators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Overload Operators.cpp"; path = "HackerRank/C++/Other Concepts/Overload Operators.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				0ADDCC431F0B79FE000F887F /* 2D Array.cpp */,
 				0ADDCC451F0B921D000F887F /* Virtual Functions.cpp */,
 				0ADDCC471F0DC8E4000F887F /* Preprocessor Solution.cpp */,
+				0ADDCC491F0DF88A000F887F /* Overload Operators.cpp */,
 				0ADDCC311F0386D8000F887F /* Vector-Sort.cpp */,
 				0ADDCC331F047D1D000F887F /* Vector-Erase.cpp */,
 				0ADDCC301F038691000F887F /* C++ */,
@@ -160,6 +163,7 @@
 				0ADDCC3A1F073469000F887F /* Maps-STL.cpp in Sources */,
 				0ADDCC441F0B79FE000F887F /* 2D Array.cpp in Sources */,
 				0ADDCC421F0A29A8000F887F /* Arrays DS.cpp in Sources */,
+				0ADDCC4A1F0DF88A000F887F /* Overload Operators.cpp in Sources */,
 				0ADDCC3C1F09C96D000F887F /* Inheritance Introduction.cpp in Sources */,
 				0ADDCC361F04A723000F887F /* Lower Bound-STL.cpp in Sources */,
 				0ADDCC341F047D1D000F887F /* Vector-Erase.cpp in Sources */,
