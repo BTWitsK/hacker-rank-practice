@@ -1,6 +1,6 @@
 //
 //  Strings.cpp
-//  Hacker Rank Practice
+//  https://www.hackerrank.com/challenges/c-tutorial-strings
 //
 //  Input Format
 //  You are given two strings, a and b, separated by a new line. Each string will consist of lower case Latin characters ('a'-'z').

@@ -11,34 +11,41 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
+
 using namespace std;
 
 
 int main() {
-    vector <int> N;
-    vector<int>::iterator low; //defines iterator low
-    int n, loop, counter, q;
+    vector <int> MainVector;
+    vector<int>::iterator MainIt; //defines iterator
+    vector<int>::iterator First;
+    int VectorInts, NumInts, NumQueries, Query;
    
+//get number of ints used to fill vector from input
+    cin >> NumInts;
     
-    cin >> loop;
-    
-// initializes venctor with ints input
-    for (int i = 0; i < loop; i++) {
-        cin >> n;
-        N.push_back(n);
+// initializes main venctor with ints input
+    for (int i = 0; i < NumInts; i++) {
+        
+        cin >> VectorInts;
+        MainVector.push_back(VectorInts);
     }
     
-    cin >> counter;
+// input number of queries
+    cin >> NumQueries;
     
-    for (int i = 0; i < counter; i++) {
-        cin >> q;
+    for (int i = 0; i < NumQueries; i++) {
         
-        low = lower_bound(N.begin(), N.end(), q);
+        cin >> Query;
         
-        if (q == *low) {
-            cout << "Yes " << (low - N.begin() + 1) << endl;
+        MainIt = lower_bound(MainVector.begin(), MainVector.end(), Query);
+        
+        
+        
+        if (Query == *MainIt) {
+            cout << "Yes " << (MainIt - MainVector.begin() + 1) << endl;
         }
-        else cout << "No " << (low - N.begin() + 1) << endl;
+        else cout << "No " << (MainIt - MainVector.begin() + 1) << endl;
         
         
     }
