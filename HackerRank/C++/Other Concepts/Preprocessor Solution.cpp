@@ -16,6 +16,9 @@ using namespace std;
 #error Missing preprocessor definitions
 #endif
 
+#define INF = 0
+#define io(v)(v.push_back(cin))
+
 //FUNCTION(minimum, <)
 //FUNCTION(maximum, >)
 
@@ -23,10 +26,10 @@ int main(){
     int n; cin >> n;
     vector<int> v(n);
     //   foreach(v, i) {
-    //     io(v)[i];
+         io(v)[i];
     //  }
-    // int mn = INF;
-    // int mx = -INF;
+     int mn = INF;
+     int mx = -INF;
     //  foreach(v, i) {
     //     minimum(mn, v[i]);
     //     maximum(mx, v[i]);
