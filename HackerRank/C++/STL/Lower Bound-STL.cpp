@@ -16,7 +16,7 @@ using namespace std;
 
 
 int main() {
-    vector <int> MainVector;
+    vector<int>MainVector;
     vector<int>::iterator MainIt; //defines iterator
     vector<int>::iterator First;
     int VectorInts, NumInts, NumQueries, Query;
@@ -39,8 +39,6 @@ int main() {
         cin >> Query;
         
         MainIt = lower_bound(MainVector.begin(), MainVector.end(), Query);
-        
-        
         
         if (Query == *MainIt) {
             cout << "Yes " << (MainIt - MainVector.begin() + 1) << endl;
