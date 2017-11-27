@@ -24,7 +24,7 @@ int main() {
 //get number of ints used to fill vector from input
     cin >> NumInts;
     
-// initializes main venctor with ints input
+// initializes main vector with ints input
     for (int i = 0; i < NumInts; i++) {
         
         cin >> VectorInts;
